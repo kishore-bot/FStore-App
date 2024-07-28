@@ -1,42 +1,25 @@
-# Ignore the build directory
+# Android-specific ignores
 /build/
 /app/build/
 /**/build/
-
-# Ignore local configuration file (sdk path, etc)
 local.properties
-
-# Ignore IntelliJ IDEA project files
 /.idea/
 /*.iml
-
-# Keystore files
 *.jks
 *.keystore
-
-# Ignore Gradle files
 /.gradle/
 /**/gradle-wrapper.jar
 /gradlew
 /gradlew.bat
-
-# Log files
 *.log
-
-# Ignore all .bak files
 *.bak
-
-# Android Studio specific files
 /.DS_Store
-/.idea/*
 /.idea/caches/
 /.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/tasks.xml
-
-# Ignore generated files
 /captures/
 /output.json
 *.apk
@@ -44,25 +27,50 @@ local.properties
 *.dex
 *.class
 *.so
+*.log
 *.swo
 *.swn
 *.swp
-
-# Ignore Jetpack Compose preview database
 /previews/
-
-# Ignore miscellaneous files
-*.iml
 *.hprof
 *.stacktrace
 *.db
 *.lock
 *.gz
-
-# Exclude files created by linting tools
 /lint/reports/
 /lint/any-lint-log.txt
-
-# Android Studio specific cache files
 /.cxx/
 /.externalNativeBuild/
+
+# Node.js/NestJS-specific ignores
+/onfstore-backend/node_modules/
+/onfstore-backend/dist/
+/onfstore-backend/.env
+/onfstore-backend/npm-debug.log*
+/onfstore-backend/yarn-error.log
+/onfstore-backend/.next/
+/onfstore-backend/out/
+/onfstore-backend/build/
+/onfstore-backend/.nuxt/
+/onfstore-backend/.svelte-kit/
+/onfstore-backend/.vercel/
+/onfstore-backend/.netlify/
+/onfstore-backend/.now/
+/onfstore-backend/.serverless/
+/onfstore-backend/.webpack/
+/onfstore-backend/logs/
+/onfstore-backend/coverage/
+/onfstore-backend/.nyc_output/
+/onfstore-backend/.eslintcache
+/onfstore-backend/.cache/
+/onfstore-backend/.turbo/
+/onfstore-backend/.parcel-cache/
+/onfstore-backend/.parcel-dist/
+/onfstore-backend/.expo/
+/onfstore-backend/.expo-shared/
+/onfstore-backend/.babelrc
+/onfstore-backend/lerna-debug.log
+/onfstore-backend/.history
+/onfstore-backend/.idea/
+/onfstore-backend/.vscode/
+/onfstore-backend/.editorconfig
