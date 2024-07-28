@@ -1,0 +1,68 @@
+# Ignore the build directory
+/build/
+/app/build/
+/**/build/
+
+# Ignore local configuration file (sdk path, etc)
+local.properties
+
+# Ignore IntelliJ IDEA project files
+/.idea/
+/*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Ignore Gradle files
+/.gradle/
+/**/gradle-wrapper.jar
+/gradlew
+/gradlew.bat
+
+# Log files
+*.log
+
+# Ignore all .bak files
+*.bak
+
+# Android Studio specific files
+/.DS_Store
+/.idea/*
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/tasks.xml
+
+# Ignore generated files
+/captures/
+/output.json
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.swo
+*.swn
+*.swp
+
+# Ignore Jetpack Compose preview database
+/previews/
+
+# Ignore miscellaneous files
+*.iml
+*.hprof
+*.stacktrace
+*.db
+*.lock
+*.gz
+
+# Exclude files created by linting tools
+/lint/reports/
+/lint/any-lint-log.txt
+
+# Android Studio specific cache files
+/.cxx/
+/.externalNativeBuild/
