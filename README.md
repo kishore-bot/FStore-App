@@ -2,6 +2,15 @@
 
 FStore is a modern e-commerce application designed to provide a seamless shopping experience. Built with the latest technologies, it offers a rich user interface and a robust backend system to manage products, users, and orders efficiently.
 
+
+## Screenshots
+
+Here you can include screenshots of your app to showcase its features and design.
+
+![App_Ui](https://github.com/kishore-bot/FStore-App/blob/main/documents/app%20ui.png)
+
+
+
 ## Frontend Technologies
 
 - **Jetpack Compose**: Used for building the UI components, providing a declarative and intuitive approach to Android UI development.
@@ -48,18 +57,16 @@ FStore is a modern e-commerce application designed to provide a seamless shoppin
 
 - Users can view their past orders and track the status of ongoing ones.
 
-## Screenshots
+### Backend
 
-Here you can include screenshots of your app to showcase its features and design.
+- Backend on fstore-backend folder.
 
-![Home Screen](path/to/images/home_screen.png)
-*Home screen displaying the latest products.*
+### Images and backend Documentaion
 
-![Shop Screen](path/to/images/shop_screen.png)
-*Shop screen with filtering options.*
+- Images of ui and backend documentaion are on Documentation folder.
 
-![Product Details](path/to/images/product_details.png)
-*Product details screen.*
+
+
 
 ## Installation and Setup
 
